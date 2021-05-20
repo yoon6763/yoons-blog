@@ -1,0 +1,90 @@
+@charset "utf-8";
+/*
+    Cascading Style Sheets 
+    html 파일을 작성할 때 글자의 크기나 색깔, 여백 등의 각종 스타일을 지정할 때 사용
+*/
+
+.header {
+    background-color: #B2CEF4;
+    position: relative;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color:#4E5866;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav_a {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: dotom;
+    padding-left: 30px;
+ }
+
+ .content_div {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+ }
+
+ .aboutme {
+     background-color: #e3ebff;
+     padding: 30px 30px 50px 50px;
+     margin: 0px 0px 100px 0px;
+     min-height: 350px;
+     width: 920px;
+ }
+
+ .aside {
+    background-color: #CDEAFF;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: auto;
+ }
+
+ .footer {
+    background-color: #F2F2F2;
+    position: relative;
+    width: 1400px;
+    margin: 0 auto;
+ }
+
+ .img1 {
+     width: 150px;
+ }
+
+
+ .img2 {
+     width: 300px;
+ }
+
+ .img_left {
+     border: 1px solid gray;
+     width: 350px;
+     margin: 0px 30px 0px 0px;
+ }
+
+ .img_right {
+    border: 1px solid gray;
+    width: 300px;
+    margin: 0px 0px 0px 30px;
+}
+
+ .line{
+    width: 300px;
+    color: "black";
+    size: 2;
+ }
+
+
+table td {
+    border: solid black;
+}
