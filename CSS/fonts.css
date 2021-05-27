@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'home_font';
+    src: url(../fonts/Inconsolata/Inconsolata.otf) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'title';
+    src: url(../fontfile/SLELG/SLEIGothicOTF.otf) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tway';
+    src: url(../fontfile/tway/tway_air.ttf) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gmaket';
+    src: url(../fontfile/GmarketSansTTF/GmarketSansTTFMedium.ttf) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nanumbarun';
+    src: url(../fontfile/nanumbarun/NanumBarunGothic.ttf) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font {
+    font-family: home_font;
+    white-space: nowrap;
+    display: inline;
+}
+
+.titlefont {
+    font-family: title;
+}

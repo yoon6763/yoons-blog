@@ -4,6 +4,7 @@
     html 파일을 작성할 때 글자의 크기나 색깔, 여백 등의 각종 스타일을 지정할 때 사용
 */
 
+
 .header {
     background-color: #B2CEF4;
     position: relative;
@@ -33,13 +34,21 @@
     margin: 0 auto;
  }
 
+ .content_inner {
+     line-height: 40px;
+ }
+
  .aboutme {
-     background-color: #e3ebff;
+     background-color: #EFF5FB;
      padding: 30px 30px 50px 50px;
      margin: 0px 0px 100px 0px;
      min-height: 350px;
      width: 920px;
+     font-size: 20px;
+     line-height: 35px;
  }
+
+
 
  .aside {
     background-color: #CDEAFF;
@@ -61,16 +70,22 @@
      width: 150px;
  }
 
-
  .img2 {
      width: 300px;
  }
+ 
+ .shadow1 {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
 
  .img_left {
-     border: 1px solid gray;
+     
      width: 350px;
      margin: 0px 30px 0px 0px;
- }
+
+     /* 그림자효과 */
+     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
 
  .img_right {
     border: 1px solid gray;
@@ -83,7 +98,6 @@
     color: "black";
     size: 2;
  }
-
 
 table td {
     border: solid black;
