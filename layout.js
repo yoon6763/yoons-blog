@@ -6,7 +6,6 @@ document.getElementById("tap3").innerHTML="Project";
 document.getElementById("tap4").innerHTML="About Me";
 
 
-
 // footer 영역
 
 document.getElementById("footertext").innerHTML
